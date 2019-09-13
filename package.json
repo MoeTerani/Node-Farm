@@ -1,0 +1,26 @@
+{
+  "name": "node-farm",
+  "version": "1.0.0",
+  "description": "node application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoeTerani/Node-Farm.git"
+  },
+  "author": "Moe Terani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoeTerani/Node-Farm/issues"
+  },
+  "homepage": "https://github.com/MoeTerani/Node-Farm#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "slugify": "^1.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
